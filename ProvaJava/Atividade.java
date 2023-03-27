@@ -55,13 +55,19 @@ public class Atividade {
         double bananas = sc.nextDouble();
 
         double totalKilos = morangos+macas+bananas;
+
         double morangosPreco = morangos*3.50;
         double macasPreco = macas*2.30;
         double bananasPreco = bananas*1.80;
+
         double totalPreco = morangosPreco+macasPreco+bananasPreco;
+
+
         if (totalKilos>15 || totalPreco>30){
         double precoFinal = totalPreco - (totalPreco*0.10);
         System.out.print("O valor a ser Pago é R$: " +precoFinal);
+        } else {
+        System.out.print("O valor a ser Pago é R$: " + totalPreco);
         }
 
     }
