@@ -47,11 +47,11 @@ public class Atividade {
         }
   
     public void exercicio3() {
-        System.out.print("Informe a Quantidade de Morangos Adquridas em Kg:");
+        System.out.print("Informe a Quantidade de Morangos Adquiridas em Kg:");
         double morangos = sc.nextDouble();
-        System.out.print("Informe a Quantidade de Maçãs Adquridas em Kg:");
+        System.out.print("Informe a Quantidade de Maçãs Adquiridas em Kg:");
         double macas = sc.nextDouble();
-        System.out.print("Informe a Quantidade de Bananas Adquridas em Kg:");
+        System.out.print("Informe a Quantidade de Bananas Adquiridas em Kg:");
         double bananas = sc.nextDouble();
 
         double totalKilos = morangos+macas+bananas;
